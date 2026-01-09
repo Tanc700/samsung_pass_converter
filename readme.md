@@ -21,7 +21,7 @@ pip install cryptography
 
 ## Usage
 
-<export_file_path>: Path to your .spass file.
+<export_file_path>: Path to your .spass file. Make sure to enclose the path in quotes (e.g., 'your_path').
 <password>: Password used for Samsung Pass export.
 --all: (Optional) Save all processed decrypted data to a .decrypted.txt file.
 
@@ -49,3 +49,4 @@ Do not use this tool on files you do not own or have permission to access.
 
 This project is not affiliated with, endorsed by, or supported by Samsung or Bitwarden.
 Use at your own risk.
+
